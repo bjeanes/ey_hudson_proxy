@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.2.1)
+    rack-streaming-proxy (1.0.3)
+      rack (>= 1.0)
+      servolux (~> 0.8.1)
+    servolux (0.8.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  rack-streaming-proxy
+  servolux
